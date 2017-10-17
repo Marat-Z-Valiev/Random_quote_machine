@@ -1,0 +1,38 @@
+body {
+  background: url(https://i.pinimg.com/originals/ee/cb/99/eecb9967d852b7759d52ad659d98fa34.jpg) no-repeat center center fixed;
+}
+
+.container {
+  text-align: center;
+  margin-top: 200px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid lightgreen;
+  border-radius: 4px;
+  color: #CCCCCC;
+  padding: 30px;
+  max-width: 600px;
+  max-height: 700px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: lightblue;
+}
+
+#quote {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2em;
+}
+
+#author {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.5em;
+}
+
+.fa-twitter {
+  padding-right: 10px;
+}
