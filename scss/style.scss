@@ -14,7 +14,7 @@ body{
   color: #CCCCCC;
   padding: 30px;
   width: 600px;
-  height: 330px;
+  max-height: 800px;
 
   .title{
     font-family: $main-font;
