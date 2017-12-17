@@ -1,28 +1,26 @@
 //Variables
-$main-font: "Comic Sans MS", cursive, sans-serif;;
-$text-center: center;
+$main-font: "Comic Sans MS", cursive, sans-serif;
 
 body{
-  background: url(https://i.pinimg.com/originals/ee/cb/99/eecb9967d852b7759d52ad659d98fa34.jpg) no-repeat center center fixed;
+  background: url(../images/background_image.jpg) no-repeat center center fixed;
 }
 
 .container{
-  text-align: $text-center;
+  text-align: center;
   margin-top: 200px;
   background: rgba(0, 0, 0, 0.8);
-  border: 1px solid lightgreen;
+  border: 1px solid #5FD47B;
   border-radius: 4px;
   color: #CCCCCC;
   padding: 30px;
-  max-width: 600px;
-  max-height: 700px;
-}
-.text-center{
-  text-align: $text-center;
-}
-.title{
-  font-family: $main-font;
-  color: lightblue;
+  width: 600px;
+  height: 330px;
+
+  .title{
+    font-family: $main-font;
+    text-align: center;
+    color: #97D0D4;
+  }
 }
 
 #quote{
@@ -33,6 +31,10 @@ body{
 #author{
   font-family: $main-font;
   font-size: 1.5em;
+}
+
+.btn{
+  margin-top: 10px;
 }
 
 .fa-twitter{
