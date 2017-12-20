@@ -1,11 +1,14 @@
 //Variables
 $main-font: "Comic Sans MS", cursive, sans-serif;
 
-body{
-  background: url(../images/background_image.jpg) no-repeat center center fixed;
+body {
+  background: url("../images/background_image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
-.container{
+.container {
   text-align: center;
   margin-top: 200px;
   background: rgba(0, 0, 0, 0.8);
@@ -16,28 +19,35 @@ body{
   width: 600px;
   max-height: 800px;
 
-  .title{
+  .title {
     font-family: $main-font;
     text-align: center;
     color: #97D0D4;
   }
 }
 
-#quote{
+#quote {
   font-family: $main-font;
   font-size: 2em;
 }
 
-#author{
+#author {
   font-family: $main-font;
   font-size: 1.5em;
 }
 
-.btn{
+.btn {
   margin-top: 40px;
   cursor: pointer;
 }
 
-.fa-twitter{
+.fa-twitter {
   padding-right: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .container{
+    margin-top: 20px;
+    width: auto;
+  }
 }

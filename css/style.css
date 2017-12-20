@@ -1,5 +1,8 @@
 body {
-  background: url(../images/background_image.jpg) no-repeat center center fixed;
+  background: url("../images/background_image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .container {
@@ -37,4 +40,11 @@ body {
 
 .fa-twitter {
   padding-right: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    margin-top: 20px;
+    width: auto;
+  }
 }
