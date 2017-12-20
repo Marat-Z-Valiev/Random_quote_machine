@@ -16,8 +16,8 @@ body {
   border-radius: 4px;
   color: #CCCCCC;
   padding: 30px;
-  width: 600px;
-  max-height: 800px;
+  width: auto;
+  height: auto;
 
   .title {
     font-family: $main-font;
@@ -48,6 +48,5 @@ body {
 @media screen and (max-width: 360px) {
   .container{
     margin-top: 20px;
-    width: auto;
   }
 }
